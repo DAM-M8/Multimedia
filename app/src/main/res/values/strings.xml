@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Restaurante Alfredo y Enzo</string>
+    <string name="ver_carta">Ver carta</string>
+    <string name="hacer_pedido">Hacer pedido</string>
+    <string name="calcular_pedido">Calcular pedido</string>
+    <string name="hacer_reserva">Hacer reserva</string>
+    <string name="eliminar_reserva">Eliminar reserva</string>
+    <string name="salir">Salir</string>
+    <string name="pedidos">Gestión de pedidos</string>
+    <string name="reservas">Gestión de reservas</string>
+    
+</resources>

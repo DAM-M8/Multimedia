@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.75"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:paddingBottom="5sp"
+            android:paddingTop="5sp"
+            android:text="ANTIPASTI"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/gazpacho" />
+
+            <TextView
+                android:id="@+id/nombre_plato"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Gazpacho"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato"
+                android:layout_toRightOf="@id/imagen_plato"
+                android:gravity="center"
+                android:text="Precio: 9,00€"
+                android:value="9.00" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato2"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/carpaccio_carne" />
+
+            <TextView
+                android:id="@+id/nombre_plato2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato2"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Carpaccio de ternera"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato2"
+                android:layout_toRightOf="@id/imagen_plato2"
+                android:gravity="center"
+                android:text="Precio: 9,00€"
+                android:value="9.00" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato3"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/carpaccio_pescado" />
+
+            <TextView
+                android:id="@+id/nombre_plato3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato3"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Carpaccio de pescado"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato3"
+                android:layout_toRightOf="@id/imagen_plato3"
+                android:gravity="center"
+                android:text="Precio: 11,00€"
+                android:value="11.00" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato4"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ensalada_caprese" />
+
+            <TextView
+                android:id="@+id/nombre_plato4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato4"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Ensalada caprese"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato4"
+                android:layout_toRightOf="@id/imagen_plato4"
+                android:gravity="center"
+                android:text="Precio: 7,50€"
+                android:value="7.50" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato5"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/carpaccio_remolacha" />
+
+            <TextView
+                android:id="@+id/nombre_plato5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato5"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Ensalada remolacha"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato5"
+                android:layout_toRightOf="@id/imagen_plato5"
+                android:gravity="center"
+                android:text="Precio: 9,00€"
+                android:value="9.00" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.75"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:paddingBottom="5sp"
+            android:paddingTop="5sp"
+            android:text="PASTA Y ARROCES"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato6"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/espagueti_carbonara" />
+
+            <TextView
+                android:id="@+id/nombre_plato6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato6"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Espagueti carbonara"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato6"
+                android:layout_toRightOf="@id/imagen_plato6"
+                android:gravity="center"
+                android:text="Precio: 9,00€"
+                android:value="9.00" />
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato7"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/pasta_pesto" />
+
+            <TextView
+                android:id="@+id/nombre_plato7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato7"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Pene con pesto"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato7"
+                android:layout_toRightOf="@id/imagen_plato7"
+                android:gravity="center"
+                android:text="Precio: 9,00€"
+                android:value="9.00" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato8"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ravioli_setas" />
+
+            <TextView
+                android:id="@+id/nombre_plato8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato8"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Ravioli con setas"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato8"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato8"
+                android:layout_toRightOf="@id/imagen_plato8"
+                android:gravity="center"
+                android:text="Precio: 11,00€"
+                android:value="11.00" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato9"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/risotto_carne" />
+
+            <TextView
+                android:id="@+id/nombre_plato9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato9"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Risotto con carne"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato9"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato9"
+                android:layout_toRightOf="@id/imagen_plato9"
+                android:gravity="center"
+                android:text="Precio: 11,00€"
+                android:value="11.00" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato10"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/risotto_setas" />
+
+            <TextView
+                android:id="@+id/nombre_plato10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato10"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Risotto con setas"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato10"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato10"
+                android:layout_toRightOf="@id/imagen_plato10"
+                android:gravity="center"
+                android:text="Precio: 11,50€"
+                android:value="11.50" />
+
+        </RelativeLayout>
+        
+         
+         <TextView
+            android:id="@id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.75"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:paddingBottom="5sp"
+            android:paddingTop="5sp"
+            android:text="CARNE Y PESCADO"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato11"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ternera_atun" />
+
+            <TextView
+                android:id="@+id/nombre_plato11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato11"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Ternera con atún"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato11"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato11"
+                android:layout_toRightOf="@id/imagen_plato11"
+                android:gravity="center"
+                android:text="Precio: 15,00€"
+                android:value="15.00" />
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato12"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/tiras_carne" />
+
+            <TextView
+                android:id="@+id/nombre_plato12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato12"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Tiras de carne"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato12"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato12"
+                android:layout_toRightOf="@id/imagen_plato12"
+                android:gravity="center"
+                android:text="Precio: 13,00€"
+                android:value="13.00" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato13"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/filete_salmon" />
+
+            <TextView
+                android:id="@+id/nombre_plato13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato13"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Filete de salmón"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato13"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato13"
+                android:layout_toRightOf="@id/imagen_plato13"
+                android:gravity="center"
+                android:text="Precio: 15,00€"
+                android:value="15.00" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato14"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/piccata" />
+
+            <TextView
+                android:id="@+id/nombre_plato14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato14"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Piccata"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato14"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato14"
+                android:layout_toRightOf="@id/imagen_plato14"
+                android:gravity="center"
+                android:text="Precio: 12,00€"
+                android:value="12.00" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato15"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/polenta" />
+
+            <TextView
+                android:id="@+id/nombre_plato15"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato15"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Polenta"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato15"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato15"
+                android:layout_toRightOf="@id/imagen_plato15"
+                android:gravity="center"
+                android:text="Precio: 11,50€"
+                android:value="11.50" />
+
+        </RelativeLayout>
+        
+         
+<TextView
+            android:id="@+id/textView4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.75"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:paddingBottom="5sp"
+            android:paddingTop="5sp"
+            android:text="PIZZAS"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato16"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/caprese" />
+
+            <TextView
+                android:id="@+id/nombre_plato16"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato16"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Pizza caprese"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato16"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato16"
+                android:layout_toRightOf="@id/imagen_plato16"
+                android:gravity="center"
+                android:text="Precio: 11,00€"
+                android:value="11.00" />
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato17"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/vegetariana" />
+
+            <TextView
+                android:id="@+id/nombre_plato17"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato17"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Pizza vegetariana"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato17"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato17"
+                android:layout_toRightOf="@id/imagen_plato17"
+                android:gravity="center"
+                android:text="Precio: 11,00€"
+                android:value="11.00" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato18"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/calzone" />
+
+            <TextView
+                android:id="@+id/nombre_plato18"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato18"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Pizza calzone"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato18"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato18"
+                android:layout_toRightOf="@id/imagen_plato18"
+                android:gravity="center"
+                android:text="Precio: 10,50€"
+                android:value="10.50" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato19"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/pepperoni" />
+
+            <TextView
+                android:id="@+id/nombre_plato19"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato19"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Pizza pepperoni"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato19"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato19"
+                android:layout_toRightOf="@id/imagen_plato19"
+                android:gravity="center"
+                android:text="Precio: 11,00€"
+                android:value="11.00" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato20"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/casa" />
+
+            <TextView
+                android:id="@+id/nombre_plato20"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato20"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Pizza de la casa"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato20"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato20"
+                android:layout_toRightOf="@id/imagen_plato20"
+                android:gravity="center"
+                android:text="Precio: 12,50€"
+                android:value="12.50" />
+
+        </RelativeLayout>
+        
+         
+         <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.75"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:paddingBottom="5sp"
+            android:paddingTop="5sp"
+            android:text="POSTRES"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato21"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/cannoli" />
+
+            <TextView
+                android:id="@+id/nombre_plato21"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato21"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Cannoli de chocolate"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato21"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato21"
+                android:layout_toRightOf="@id/imagen_plato21"
+                android:gravity="center"
+                android:text="Precio: 6,50€"
+                android:value="6.50" />
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato22"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/tiramisu" />
+
+            <TextView
+                android:id="@+id/nombre_plato22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato22"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Pastel de tiramisú"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato22"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato22"
+                android:layout_toRightOf="@id/imagen_plato22"
+                android:gravity="center"
+                android:text="Precio: 5,50€"
+                android:value="5.50" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato23"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/pina_chocolate" />
+
+            <TextView
+                android:id="@+id/nombre_plato23"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato23"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Piña con chocolate"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato23"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato23"
+                android:layout_toRightOf="@id/imagen_plato23"
+                android:gravity="center"
+                android:text="Precio: 5,50€"
+                android:value="5.50" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato24"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/helado_limon" />
+
+            <TextView
+                android:id="@+id/nombre_plato24"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato24"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Helado de limón"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato24"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato24"
+                android:layout_toRightOf="@id/imagen_plato24"
+                android:gravity="center"
+                android:text="Precio: 4,50€"
+                android:value="4.50" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato25"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/pannacotta" />
+
+            <TextView
+                android:id="@+id/nombre_plato25"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato25"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Pannacotta"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato25"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato25"
+                android:layout_toRightOf="@id/imagen_plato25"
+                android:gravity="center"
+                android:text="Precio: 5,50€"
+                android:value="5.50" />
+
+        </RelativeLayout>
+        
+         <TextView
+            android:id="@+id/textView5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.75"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:paddingBottom="5sp"
+            android:paddingTop="5sp"
+            android:text="BEBIDAS"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato26"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/agua" />
+
+            <TextView
+                android:id="@+id/nombre_plato26"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato26"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Agua"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato26"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato26"
+                android:layout_toRightOf="@id/imagen_plato26"
+                android:gravity="center"
+                android:text="Precio: 1,50€"
+                android:value="1.50" />
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato27"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/refresco_cola" />
+
+            <TextView
+                android:id="@+id/nombre_plato27"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato27"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Refresco de cola"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato27"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato27"
+                android:layout_toRightOf="@id/imagen_plato27"
+                android:gravity="center"
+                android:text="Precio: 2,00€"
+                android:value="2.00" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato28"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/refresco_limon" />
+
+            <TextView
+                android:id="@+id/nombre_plato28"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato28"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Refresco de limón"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato28"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato28"
+                android:layout_toRightOf="@id/imagen_plato28"
+                android:gravity="center"
+                android:text="Precio: 2,00€"
+                android:value="2.00" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato29"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/vino_tinto" />
+
+            <TextView
+                android:id="@+id/nombre_plato29"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato29"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Vino tinto"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato29"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato29"
+                android:layout_toRightOf="@id/imagen_plato29"
+                android:gravity="center"
+                android:text="Precio: 10,50€"
+                android:value="10.50" />
+
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:attr/listPreferredItemHeight" >
+
+            <ImageView
+                android:id="@+id/imagen_plato30"
+                android:layout_width="?android:attr/listPreferredItemHeight"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/lambrusco" />
+
+            <TextView
+                android:id="@+id/nombre_plato30"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/imagen_plato30"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Lambrusco"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/precio_plato30"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/nombre_plato30"
+                android:layout_toRightOf="@id/imagen_plato30"
+                android:gravity="center"
+                android:text="Precio: 8,50€"
+                android:value="8.50" />
+
+        </RelativeLayout>
+        
+         
+         
+        
+        
+        
+        
+        
+    </LinearLayout>
+
+</ScrollView>

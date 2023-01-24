@@ -1,0 +1,41 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Dialog">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!-- Codigo fuente obtenido de: http://www.mindfreakerstuff.com/2012/09/50-useful-android-custom-button-style-set-1/ -->
+    
+    <style name="btnStyleBlackpearl" parent="@android:style/Widget.Button">
+       <item name="android:textSize">12sp</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:gravity">center</item>
+       <item name="android:shadowColor">#000000</item>
+       <item name="android:shadowDx">1</item>
+       <item name="android:shadowDy">1</item>
+       <item name="android:shadowRadius">0.6</item>
+       
+       <item name="android:padding">1dip</item>
+       <item name="android:alpha">0.4</item>
+   </style>
+<!-- 
+    <style name="btnStyleBlackPearl_xlarge" parent="btnStyleBlackPearl">
+        <item name="android:paddingTop">10sp</item>
+        <item name="android:paddingBottom">10sp</item>
+        <item name="android:layout_margin">5sp</item>
+    </style> -->
+
+</resources>

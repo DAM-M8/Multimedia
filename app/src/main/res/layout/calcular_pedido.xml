@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/salida"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduzca el número de mesa"/>
+    <EditText
+        android:id="@+id/entrada"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="right"
+        android:hint="número mesa"/>
+
+    <Button
+        android:id="@+id/Calcular"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignRight="@id/entrada"
+
+        android:onClick="calcularTotalMesa"
+        android:text="Calcular total" />
+    
+    <Button
+        android:id="@+id/Cobrar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cobrarMesa"
+        android:text="Cobrar mesa" />
+
+</LinearLayout>

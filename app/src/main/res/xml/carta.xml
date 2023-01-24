@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="carta" >
+    <PreferenceCategory android:title="Mesa">
+        <EditTextPreference
+            android:key="mesa"
+            android:title="Número de la mesa"
+            android:defaultValue="0"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Antipasti">
+        <EditTextPreference
+            android:key="gazpacho"
+            android:title="Gazpacho"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="carpaccio_ternera"
+            android:title="Carpaccio de ternera"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="carpaccio_pescado"
+            android:title="Carpaccio de pescado"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="ensalada_caprese"
+            android:title="Ensalada caprese"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="ensalada_remolacha"
+            android:title="Ensalada de remolacha"
+            android:defaultValue="0"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Pasta y arroces">
+        <EditTextPreference
+            android:key="espagueti_carbonara"
+            android:title="Espagueti carbonara"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="pasta_pesto"
+            android:title="Pasta al pesto"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="ravioli_setas"
+            android:title="Ravioli con setas"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="rissotto_carne"
+            android:title="Risotto con carne"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="rissotto_setas"
+            android:title="Rissotto con setas"
+            android:defaultValue="0"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Carnes y pescados">
+        <EditTextPreference
+            android:key="ternera_atun"
+            android:title="Ternera con atún"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="tiras_carne"
+            android:title="Tiras de carne"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="salmon_ris"
+            android:title="Salmón con risotto"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="piccata"
+            android:title="Pescado con alcaparras"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="polenta"
+            android:title="Polenta"
+            android:defaultValue="0"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Pizzas">
+        <EditTextPreference
+            android:key="pizza_caprese"
+            android:title="Pizza caprese"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="pizza_vegetariana"
+            android:title="Pizza vegetariana"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="pizza_calzone"
+            android:title="Pizza calzone"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="pizza_peperoni"
+            android:title="Pizza pepperoni"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="pizza_casa"
+            android:title="Pizza de la casa"
+            android:defaultValue="0"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Postres">
+        <EditTextPreference
+            android:key="cannoli"
+            android:title="Cannoli de chocolate"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="tiramisu"
+            android:title="Pastel de tiramisú"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="pina_chocolate"
+            android:title="Piña con chocolate"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="helado_limon"
+            android:title="Helado de limón"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="pannacotta"
+            android:title="Pannacotta"
+            android:defaultValue="0"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Bebidas">
+        <EditTextPreference
+            android:key="agua"
+            android:title="Agua"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="refresco_cola"
+            android:title="Refresco de cola"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="refresco_limon"
+            android:title="Refresco de limón"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="vino_tinto"
+            android:title="Vino tinto"
+            android:defaultValue="0"/>
+        <EditTextPreference
+            android:key="lambrusco"
+            android:title="Lambrusco"
+            android:defaultValue="0"/>
+    </PreferenceCategory>
+</PreferenceScreen>

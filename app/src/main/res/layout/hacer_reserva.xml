@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center" android:orientation="vertical">
+  <TextView android:id="@+id/text_nombre_cliente" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Introduzca el nombre de cliente" /> 
+  <EditText android:id="@+id/edit_nombre_cliente" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@android:drawable/editbox_background" android:gravity="left" android:hint="Nombre del cliente" /> 
+  <TextView android:id="@+id/text_num_clientes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Introduzca el número de comensales" /> 
+  <EditText android:id="@+id/edit_num_clientes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@android:drawable/editbox_background" android:gravity="right" android:hint="Número de comensales" /> 
+  <TextView android:id="@+id/text_fecha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Fecha de la reserva" /> 
+  <Button android:id="@+id/Fijar_fecha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Indicar fecha" android:background="#FFFFFF" android:textColor="#000000"/> 
+  <Button android:id="@+id/Reservar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="crearReserva" android:text="Reservar" /> 
+  </LinearLayout>
